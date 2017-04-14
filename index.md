@@ -5,6 +5,7 @@ Welcome to the AFINO flare catalogue
 <thead>
 <tr class="header">
 <th>Date</th>
+<th>GOES Class</th>
 <th>Instrument</th>
 <th>Period</th>
 </tr>
@@ -14,6 +15,7 @@ Welcome to the AFINO flare catalogue
 {% for row in site.data.afino_master_record %}
   <tr>
   <td> {{ row.Date }} </td>
+  <td> {{ row.GOES class}} <td>
   <td> {{ row.Instrument}} </td>
   <td> {{ row.period }} </td>
   </tr>

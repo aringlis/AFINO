@@ -5,6 +5,8 @@ datatable: true
 Welcome to the AFINO flare catalogue
 
 
+<div style="max-height:500px;overflow:auto;">
+
 <table class="display">
 <thead>
 <tr class="header">
@@ -57,6 +59,6 @@ Welcome to the AFINO flare catalogue
 </tbody>
 </table>
 
-
+</div>
 
  

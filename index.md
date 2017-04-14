@@ -1,7 +1,7 @@
 
 Welcome to the AFINO flare catalogue
 
-<table>
+<table class="display">
 <thead>
 <tr class="header">
 <th>Date</th>

@@ -4,7 +4,6 @@ datatable: true
 
 Welcome to the AFINO flare catalogue
 
-
 <div style="height:100%; width:100%; overflow:auto;">
 
 <table class="display">

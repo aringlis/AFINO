@@ -5,9 +5,9 @@ datatable: true
 Welcome to the AFINO flare catalogue
 
 
-<div class="datatable-begin"></div>
 
-<table class="display" data-order='[[ 2, "asc" ]]'>
+
+<table class="display">
 <thead>
 <tr class="header">
 <th>Date</th>
@@ -31,9 +31,17 @@ Welcome to the AFINO flare catalogue
 </tbody>
 </table>
 
-<div class="datatable-end"></div>
+<script>
+$(document).ready(function(){
 
-
+    $('table.display').DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+</script>
 
 
  

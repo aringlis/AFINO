@@ -2,14 +2,11 @@
 Welcome to the AFINO flare catalogue
 
 <table>
-<colgroup>
-<col width="30%" />
-<col width="70%" />
-</colgroup>
 <thead>
 <tr class="header">
-<th>Field</th>
-<th>Description</th>
+<th>Date</th>
+<th>Instrument</th>
+<th>Period</th>
 </tr>
 </thead>
 <tbody>

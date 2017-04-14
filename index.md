@@ -2,6 +2,17 @@
 datatable: true
 ---
 
+<script>
+$(document).ready(function(){
+    $('table.display').DataTable( {
+        paging: true,
+        stateSave: true,
+        searching: true
+    }
+        );
+});
+</script>
+
 Welcome to the AFINO flare catalogue
 
 
@@ -33,16 +44,7 @@ Welcome to the AFINO flare catalogue
 </tbody>
 </table>
 
-<script>
-$(document).ready(function(){
-    $('table.display').DataTable( {
-        paging: true,
-        stateSave: true,
-        searching: true
-    }
-        );
-});
-</script>
+
 
 
  

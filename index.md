@@ -26,10 +26,11 @@ Welcome to the AFINO flare catalogue
 <th>Instrument</th>
 <th>Start time</th>
 <th>End time</th>
+<th>Wavelength</th>
 <th>&Delta;BIC S<sub>0</sub> vs S<sub>1</sub> </th>
 <th>&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
 <th>&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
-<th>Wavelength</th>
+
 <th>Detection</th>
 <th>Period</th>
 </tr>

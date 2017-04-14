@@ -7,7 +7,7 @@ Welcome to the AFINO flare catalogue
 
 <div class="datatable-begin"></div>
 
-<table class="display" data-order='[[ 1, "asc" ]]'>
+<table class="display" data-order='[[ 2, "asc" ]]'>
 <thead>
 <tr class="header">
 <th>Date</th>

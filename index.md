@@ -11,6 +11,7 @@ Welcome to the AFINO flare catalogue
 <thead>
 <tr class="header">
 <th>Date</th>
+<th>GOES class</th>
 <th>Instrument</th>
 <th>Wavelength</th>
 <th>Detection</th>
@@ -22,6 +23,7 @@ Welcome to the AFINO flare catalogue
 {% for row in site.data.afino_master_record %}
   <tr>
   <td> {{ row.Date }} </td>
+  <td> {{row.GOES-class}}</td>
   <td> {{ row.Instrument}} </td>
   <td> {{ row.Wavelength}} </td>
   <td> {{ row.Detection}} </td>
@@ -33,7 +35,6 @@ Welcome to the AFINO flare catalogue
 
 <script>
 $(document).ready(function(){
-
     $('table.display').DataTable( {
         paging: true,
         stateSave: true,

@@ -5,7 +5,7 @@ datatable: true
 Welcome to the AFINO flare catalogue
 
 
-<table class="display">
+<table class="display", width=500>
 <thead>
 <tr class="header">
 <th>Date</th>

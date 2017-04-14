@@ -39,16 +39,16 @@ Welcome to the AFINO flare catalogue
   <td> {{row.Start_time}} </td>
   <td> {{row.End_time}} </td>
   <td> {{ row.Wavelength}} </td>
-  <td> {{row.dBIC_0v1}} </td>
-  <td> {{row.dBIC_0v2}} </td>
-  <td> {{row.dBIC_2v1}} </td>
+  <td> {{row.dBIC_0v1 | round:1 }} </td>
+  <td> {{row.dBIC_0v2 | round:1 }} </td>
+  <td> {{row.dBIC_2v1 | round:1 }} </td>
   <td> {{ row.Detection}} </td>
-  <td> {{row.rchi2_m0 | round:4}} </td>
-  <td> {{row.probability_m0 | round:5 }}  </td>
-  <td> {{row.rchi2_m1}} </td>
-  <td> {{row.probability_m2}} </td>
-  <td> {{row.rchi2_m2}} </td>
-  <td> {{row.probability_m2}} </td>
+  <td> {{row.rchi2_m0 | round:2}} </td>
+  <td> {{row.probability_m0 | round:3 }}  </td>
+  <td> {{row.rchi2_m1} | round:2} </td>
+  <td> {{row.probability_m2 | round:3}} </td>
+  <td> {{row.rchi2_m2 | round:2}} </td>
+  <td> {{row.probability_m2 | round:3}} </td>
   <td> {{row.period}} </td>
   <td> {{row.width}} </td>
   <td> {{row.flags}} </td>

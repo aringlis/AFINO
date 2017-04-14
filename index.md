@@ -5,7 +5,7 @@ datatable: true
 Welcome to the AFINO flare catalogue
 
 
-<div style="max-height:2000px;overflow:auto;">
+<div style="max-height:2000px; max-width:800px; overflow:auto;">
 
 <table class="display">
 <thead>

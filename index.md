@@ -1,4 +1,6 @@
+---
 datatable: true
+---
 
 Welcome to the AFINO flare catalogue
 

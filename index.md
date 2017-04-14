@@ -48,9 +48,9 @@ Welcome to the AFINO flare catalogue
   <tr>
   <td> {{ row.Date }} </td>
   <td> {{row.GOES_class}}</td>
+  <td> {{ row.Instrument}} </td>
   <td> {{row.Start_time}} </td>
   <td> {{row.End_time}} </td>
-  <td> {{ row.Instrument}} </td>
   <td> {{ row.Wavelength}} </td>
   <td> {{row.dBIC_0v1}} </td>
   <td> {{row.dBIC_0v2}} </td>

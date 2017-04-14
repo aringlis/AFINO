@@ -46,7 +46,7 @@ Welcome to the AFINO flare catalogue
 
 
 {%for row in site.data.afino_master_record %}
-<p> {{row.GOES class}} </p>
+<p> {{row.GOES\ class}} </p>
 {% endfor %}
 
  

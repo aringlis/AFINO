@@ -51,7 +51,7 @@ Welcome to the AFINO flare catalogue
   <td> {{row.probability_m2 | round:3}} </td>
   <td> {{row.period}} </td>
   <td> {{row.width | round:2}} </td>
-  <td> {{row.flags}} </td>
+  <td> {{row.Flags}} </td>
   </tr>
 {% endfor %}
 </tbody>

@@ -4,7 +4,7 @@ datatable: true
 
 Welcome to the AFINO flare catalogue
 
-<div style="height:100%; width:100%; font-size:	8px; overflow:auto;">
+<div style="height:100%; width:100%; font-size:	10px; overflow:auto;">
 
 <table class="display">
 <thead>

@@ -17,8 +17,8 @@ Welcome to the AFINO flare catalogue
   <tr>
   <td> {{ row.Date }} </td>
   <td> {{ row.Instrument}} </td>
-  <td> {{ row.Wavelength}} <td>
-  <td> {{ row.Detection}} <td>
+  <td> {{ row.Wavelength}} </td>
+  <td> {{ row.Detection}} </td>
   <td> {{ row.period }} </td>
   </tr>
 {% endfor %}

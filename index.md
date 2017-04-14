@@ -34,7 +34,7 @@ Welcome to the AFINO flare catalogue
 {% for row in site.data.afino_master_record %}
   <tr>
   <td> {{ row.Date }} </td>
-  <td> {{row.GOES_class}}</td>
+  <td> {{row.GOES\ class}}</td>
   <td> {{ row.Instrument}} </td>
   <td> {{ row.Wavelength}} </td>
   <td> {{ row.Detection}} </td>

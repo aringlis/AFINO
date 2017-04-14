@@ -5,7 +5,19 @@ datatable: true
 Welcome to the AFINO flare catalogue
 
 
-<table class="display", width: auto>
+table {
+    table-layout: fixed;
+    width: 100%;
+  border:1px solid;
+  margin-top:20px;
+  border-collapse: collapse;
+}
+td {
+    min-width: 250px;
+   border:1px solid;
+}
+
+<table class="display">
 <thead>
 <tr class="header">
 <th>Date</th>

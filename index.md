@@ -5,6 +5,7 @@ datatable: true
 Welcome to the AFINO flare catalogue
 
 
+<div class="datatable-begin"></div>
 
 <table class="display">
 <thead>
@@ -30,7 +31,7 @@ Welcome to the AFINO flare catalogue
 </tbody>
 </table>
 
-
+<div class="datatable-end"></div>
 
 
 

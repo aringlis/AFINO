@@ -1,5 +1,5 @@
 
-Welcome to this site for hosting the AFINO flare catalogue
+Welcome to the AFINO flare catalogue
 
 <table>
 <colgroup>
@@ -13,17 +13,18 @@ Welcome to this site for hosting the AFINO flare catalogue
 </tr>
 </thead>
 <tbody>
-<tr>
-<td markdown="span">First column **fields**</td>
-<td markdown="span">Some descriptive text. This is a markdown link to [Google](http://google.com). Or see [some link][mydoc_tags].</td>
-</tr>
-<tr>
-<td markdown="span">Second column **fields**</td>
-<td markdown="span">Some more descriptive text.
-</td>
-</tr>
+
+{% for row in site.data.afino_master_record %}
+  <tr>
+  <td> {{ item.Date }} </td>
+  <td> {{ item.Instrument}} </td>
+  <td> {{ item. period }} </td>
+  </tr>
+{% endfor %}
 </tbody>
 </table>
+
+
 
 
 

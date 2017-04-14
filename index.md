@@ -1,2 +1,2 @@
 
-This is a site to host the AFINO flare catalogue. 
+Welcome to this site for hosting the AFINO flare catalogue. 

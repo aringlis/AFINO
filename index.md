@@ -8,5 +8,5 @@ Welcome to this site for hosting the AFINO flare catalogue.
       {{ item.Date }},{{ item.Instrument }},{{ item.Detection }},{{ item.period }}
     </tr>
   {% endfor %}
-  </table>
+</table>
 </ul>

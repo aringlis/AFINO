@@ -45,12 +45,12 @@ Welcome to the AFINO flare catalogue
   <td> {{ row.Detection}} </td>
   <td> {{row.rchi2_m0 | round:2}} </td>
   <td> {{row.probability_m0 | round:3 }}  </td>
-  <td> {{row.rchi2_m1} | round:2} </td>
+  <td> {{row.rchi2_m1 | round:2}] </td>
   <td> {{row.probability_m2 | round:3}} </td>
   <td> {{row.rchi2_m2 | round:2}} </td>
   <td> {{row.probability_m2 | round:3}} </td>
   <td> {{row.period}} </td>
-  <td> {{row.width}} </td>
+  <td> {{row.width | round:2}} </td>
   <td> {{row.flags}} </td>
   </tr>
 {% endfor %}

@@ -13,9 +13,9 @@ Welcome to the AFINO flare catalogue
 
 {% for row in site.data.afino_master_record %}
   <tr>
-  <td> {{ item.Date }} </td>
-  <td> {{ item.Instrument}} </td>
-  <td> {{ item. period }} </td>
+  <td> {{ row.Date }} </td>
+  <td> {{ row.Instrument}} </td>
+  <td> {{ row.period }} </td>
   </tr>
 {% endfor %}
 </tbody>

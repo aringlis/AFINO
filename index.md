@@ -7,9 +7,10 @@ datatable: true
 <script>
 $(document).ready(function(){
 
-    $('table.display').DataTable( {
+    $('#catalogue').DataTable( {
         paging: true,
         data-sort: true,
+        order: [[ 3, "desc" ]],
         stateSave: true,
         searching: true
     }
@@ -92,28 +93,28 @@ These results are freely available for reference by anyone interested. If you do
 
 <div style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
-<table id="catalogue" class="display" data-order='[[ 0, "desc" ]]'>
+<table id="catalogue" class="display">
 <thead>
 <tr class="header">
-<th data-sort style="font-size: 16px">Date</th>
-<th style="font-size: 16px">GOES class</th>
-<th style="font-size: 16px">Instrument</th>
-<th style="font-size: 16px">Start time</th>
-<th style="font-size: 16px">End time</th>
-<th style="font-size: 16px">Wavelength</th>
-<th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>1</sub> </th>
-<th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
-<th style="font-size: 16px">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
-<th style="font-size: 16px">Detection</th>
-<th style="font-size: 16px">&chi;<sup>2</sup><sub>S0</sub> &nbsp;</th>
-<th style="font-size: 16px">p<sub>S0</sub></th>
-<th style="font-size: 16px">&chi;<sup>2</sup><sub>S1</sub> &nbsp;</th>
-<th style="font-size: 16px">p<sub>S1</sub></th>
-<th style="font-size: 16px">&chi;<sup>2</sup><sub>S2</sub> &nbsp;</th>
-<th style="font-size: 16px">p<sub>S2</sub></th>
-<th style="font-size: 16px">P (s)</th>
-<th style="font-size: 16px">Width</th>
-<th style="font-size: 16px">Flags</th>
+<th data-sort>Date</th>
+<th>GOES class</th>
+<th>Instrument</th>
+<th>Start time</th>
+<th>End time</th>
+<th>Wavelength</th>
+<th>&Delta;BIC S<sub>0</sub> vs S<sub>1</sub> </th>
+<th>&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
+<th>&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
+<th>Detection</th>
+<th>&chi;<sup>2</sup><sub>S0</sub> &nbsp;</th>
+<th>p<sub>S0</sub></th>
+<th>&chi;<sup>2</sup><sub>S1</sub> &nbsp;</th>
+<th>p<sub>S1</sub></th>
+<th>&chi;<sup>2</sup><sub>S2</sub> &nbsp;</th>
+<th>p<sub>S2</sub></th>
+<th>P (s)</th>
+<th>Width</th>
+<th>Flags</th>
 </tr>
 </thead>
 <tbody>

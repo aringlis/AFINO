@@ -5,7 +5,9 @@ datatable: true
 <head>
 <script type="text/javascript" class="init">
  $(document).ready(function() {
-    $('#catalogue').DataTable();
+    $('#catalogue').DataTable( {
+    "ordering": true
+    } );
 } );
 </script>
 </head>

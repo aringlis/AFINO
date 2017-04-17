@@ -9,7 +9,7 @@ datatable: true
 <script>
 $(document).ready(function(){
 
-    $("#catalogue").DataTable( {
+    $("#catalogue").datatable( {
         paging: false,
         data-sort: true,
         order: [[ 0, "desc" ]],

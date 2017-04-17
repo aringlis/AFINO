@@ -2,15 +2,14 @@
 datatable: true
 ---
 
-<head>
-<script type="text/javascript" class="init">
+<script>
  $(document).ready(function() {
     $('#catalogue').DataTable( {
     "ordering": true
     } );
 } );
 </script>
-</head>
+
 
 # About this catalogue
 

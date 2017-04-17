@@ -1,3 +1,4 @@
 theme: jekyll-theme-dinky
+markdown: kramdown
 title: The Automated Flare Inference of Oscillations (AFINO) catalogue
 datatable: true

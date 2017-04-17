@@ -7,6 +7,7 @@ $(document).ready(function(){
 
     $('table.display').DataTable( {
         paging: true,
+        data-sort: true,
         stateSave: true,
         searching: true
     }

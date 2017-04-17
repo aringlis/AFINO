@@ -2,10 +2,11 @@
 datatable: true
 ---
 
+<head>
  $(document).ready(function() {
     $('#catalogue').DataTable();
 } );
-
+</head>
 
 # About this catalogue
 

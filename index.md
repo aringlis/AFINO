@@ -25,7 +25,7 @@ datatable: true
 
 <nav>
 <ul>
-<li><a href="/about">More Information</a></li>
+<li><a href="/AFINO/about">More Information</a></li>
 </ul>
     </nav>
 

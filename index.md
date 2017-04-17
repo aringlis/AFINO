@@ -25,7 +25,7 @@ datatable: true
 
 <nav>
 <ul>
-<li><a href="more_information.md">More Information</a></li>
+<li><a href="/About">More Information</a></li>
 </ul>
     </nav>
 

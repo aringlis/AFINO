@@ -8,7 +8,7 @@ These results are freely available for reference by anyone interested. If you do
 
 <div style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
-<table class="display">
+<table id="catalogue", class="display">
 <thead>
 <tr class="header">
 <th>Date</th>
@@ -62,4 +62,6 @@ These results are freely available for reference by anyone interested. If you do
 
 </div>
 
- 
+ $(document).ready(function() {
+    $('#catalogue').DataTable();
+} );

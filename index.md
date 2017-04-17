@@ -3,9 +3,11 @@ datatable: true
 ---
 
 <head>
+<script type="text/javascript" class="init">
  $(document).ready(function() {
     $('#catalogue').DataTable();
 } );
+</script>
 </head>
 
 # About this catalogue

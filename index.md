@@ -93,10 +93,10 @@ These results are freely available for reference by anyone interested. If you do
 
 <table id="catalogue" class="display" data-order='[[ 0, "desc" ]]'>
 <thead>
-<tr class="header">
+<tr class="header" style="font-size: 14px">
 <th data-sort>Date</th>
 <th>GOES class</th>
-<th style="font-size: 12px">Instrument</th>
+<th>Instrument</th>
 <th>Start time</th>
 <th>End time</th>
 <th>Wavelength</th>

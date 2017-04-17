@@ -23,6 +23,31 @@ AFINO was designed to search for signatures consistent with quasi-periodic pulsa
 
 These results are freely available for reference by anyone interested. If you do make use of this list, please cite the following papers where the AFINO techniques and results were published: [Inglis et al. ApJ, 798, 108, (2015)](http://iopscience.iop.org/article/10.1088/0004-637X/798/2/108) , [Inglis et al., ApJ, 833, 284, (2016)](http://iopscience.iop.org/article/10.3847/1538-4357/833/2/284/). 
 
+
+<table id="keys" class="display">
+<colgroup>
+<col width="30%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">Model S0</td>
+<td markdown="span">A single power-law plus constant model of the Power Spectral Density (PSD) </td>
+</tr>
+<tr>
+<td markdown="span">Model S1</td>
+<td markdown="span">A single power-law plus constant, plus a localized enhancement consistent with a QPP signature </td>
+</tr>
+</tbody>
+</table>
+
+
 <div style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
 <table id="catalogue" class="display" data-order='[[ 0, "desc" ]]'>

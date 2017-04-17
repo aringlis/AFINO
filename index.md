@@ -1,6 +1,7 @@
 ---
 datatable: true
 ---
+<head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
@@ -13,11 +14,11 @@ $(document).ready(function(){
         order: [[ 3, "desc" ]],
         stateSave: true,
         searching: true
-    }
-        );
+    });
 });
 </script>
 
+</head>
 # About this catalogue
 
 AFINO was designed to search for signatures consistent with quasi-periodic pulsations (QPP) in solar flares. It uses a model comparison technique to analyse the Fourier Power Spectral Density (PSD) of solar flares in GOES 1-8A X-ray data. Events showing a strong preference for a localized frequency enhancement in the PSD are flagged as flares of interest (see bold entries).

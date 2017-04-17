@@ -23,6 +23,13 @@ datatable: true
 
 </head>
 
+<nav>
+<ul>
+<li><a href="/about">About</a></li>
+<li><a href="/docs">Docs</a></li>
+</ul>
+    </nav>
+
 
 # About this catalogue
 

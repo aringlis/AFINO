@@ -26,8 +26,8 @@ These results are freely available for reference by anyone interested. If you do
 
 <table id="keys" class="display">
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="20%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -44,6 +44,47 @@ These results are freely available for reference by anyone interested. If you do
 <td markdown="span">Model S1</td>
 <td markdown="span">A single power-law plus constant, plus a localized enhancement consistent with a QPP signature </td>
 </tr>
+<tr>
+<td markdown="span">Model S2</td>
+<td markdown="span">A broken-power law plus a constant </td>
+</tr>
+<tr>
+<td markdown="span">BIC</td>
+<td markdown="span">The Bayesian Information Criterion. BIC = -2 Ln(L) + k Ln(n), where L is the likelihood function  </td>
+</tr>
+<tr>
+<td markdown="span">&Delta;BIC S<sub>0</sub> vs S<sub>1</sub></td>
+<td markdown="span">The difference in BIC between models S0 and S1. A positive value >10 indicates a strong preference for S1 over S0 </td>
+</tr>
+<tr>
+<td markdown="span">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub></td>
+<td markdown="span">The difference in BIC between models S0 and S2. A positive value >10 indicates a strong preference for S2 over S0 </td>
+</tr>
+<tr>
+<td markdown="span">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub></td>
+<td markdown="span">The difference in BIC between models S2 and S1. A positive value >10 indicates a strong preference for S1 over S2 </td>
+</tr>
+<tr>
+<td markdown="span">Detection</td>
+<td markdown="span">If model S1 is preferred over all others by ΔBIC > 10, the criteria are met for a QPP detection  </td>
+</tr>
+<tr>
+<td markdown="span">&chi;<sup>2</sup><sub>Sn</sub>, p<sub>Sn</sub></td>
+<td markdown="span">Goodness of fit estimate, and associated p-value for each model n=0,1,2  </td>
+</tr>
+<tr>
+<td markdown="span">P (s)</td>
+<td markdown="span">Best-fit period, in seconds, of the localized enhancement, where appropriate   </td>
+</tr>
+<tr>
+<td markdown="span">width</td>
+<td markdown="span">Best-fit width, in log-f space, of the localized enhancement, where appropriate    </td>
+</tr>
+<tr>
+<td markdown="span">Flags</td>
+<td markdown="span">S = short data series (less than 200 data points), B0 = bad fit to model S0 (pS0 less than 0.01), B1 = bad fit to model S1 (pS1 less than 0.01), B2 = bad fit to model S2 (pS2 less than 0.01)    </td>
+</tr>
+
 </tbody>
 </table>
 

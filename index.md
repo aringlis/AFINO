@@ -7,7 +7,7 @@ datatable: true
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
 <script>
-$(document).ready(function(){
+
 
     $("#catalogue").datatable( {
         paging: false,
@@ -16,7 +16,7 @@ $(document).ready(function(){
         stateSave: true,
         searching: true
     });
-});
+
 </script>
 
 </head>

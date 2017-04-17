@@ -2,6 +2,7 @@
 datatable: true
 ---
 
+
 <head>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -20,6 +21,10 @@ datatable: true
 </script>
 
 </head>
+
+<div class="docs-header">
+{% include masthead.html %}
+</div>
 
 
 # About this catalogue

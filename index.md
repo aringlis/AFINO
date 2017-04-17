@@ -92,11 +92,11 @@ These results are freely available for reference by anyone interested. If you do
 <div style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
 <table id="catalogue" class="display" data-order='[[ 0, "desc" ]]'>
-<thead style="font-size: 12px">
+<thead>
 <tr class="header">
 <th data-sort>Date</th>
 <th>GOES class</th>
-<th>Instrument</th>
+<th style="font-size: 12px">Instrument</th>
 <th>Start time</th>
 <th>End time</th>
 <th>Wavelength</th>

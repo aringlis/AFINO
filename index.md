@@ -94,25 +94,25 @@ These results are freely available for reference by anyone interested. If you do
 <table id="catalogue" class="display" data-order='[[ 0, "desc" ]]'>
 <thead>
 <tr class="header">
-<th data-sort style="font-size: 14px">Date</th>
-<th style="font-size: 14px">GOES class</th>
-<th style="font-size: 14px">Instrument</th>
-<th style="font-size: 14px">Start time</th>
-<th style="font-size: 14px">End time</th>
-<th style="font-size: 14px">Wavelength</th>
-<th style="font-size: 14px">&Delta;BIC S<sub>0</sub> vs S<sub>1</sub> </th>
-<th style="font-size: 14px">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
-<th style="font-size: 14px">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
-<th style="font-size: 14px">Detection</th>
-<th style="font-size: 14px">&chi;<sup>2</sup><sub>S0</sub> &nbsp;</th>
-<th style="font-size: 14px">p<sub>S0</sub></th>
-<th style="font-size: 14px">&chi;<sup>2</sup><sub>S1</sub> &nbsp;</th>
-<th style="font-size: 14px">p<sub>S1</sub></th>
-<th style="font-size: 14px">&chi;<sup>2</sup><sub>S2</sub> &nbsp;</th>
-<th style="font-size: 14px">p<sub>S2</sub></th>
-<th style="font-size: 14px">P (s)</th>
-<th style="font-size: 14px">Width</th>
-<th style="font-size: 14px">Flags</th>
+<th data-sort style="font-size: 16px">Date</th>
+<th style="font-size: 16px">GOES class</th>
+<th style="font-size: 16px">Instrument</th>
+<th style="font-size: 16px">Start time</th>
+<th style="font-size: 16px">End time</th>
+<th style="font-size: 16px">Wavelength</th>
+<th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>1</sub> </th>
+<th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
+<th style="font-size: 16px">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
+<th style="font-size: 16px">Detection</th>
+<th style="font-size: 16px">&chi;<sup>2</sup><sub>S0</sub> &nbsp;</th>
+<th style="font-size: 16px">p<sub>S0</sub></th>
+<th style="font-size: 16px">&chi;<sup>2</sup><sub>S1</sub> &nbsp;</th>
+<th style="font-size: 16px">p<sub>S1</sub></th>
+<th style="font-size: 16px">&chi;<sup>2</sup><sub>S2</sub> &nbsp;</th>
+<th style="font-size: 16px">p<sub>S2</sub></th>
+<th style="font-size: 16px">P (s)</th>
+<th style="font-size: 16px">Width</th>
+<th style="font-size: 16px">Flags</th>
 </tr>
 </thead>
 <tbody>

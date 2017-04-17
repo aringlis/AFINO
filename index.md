@@ -24,7 +24,7 @@ AFINO was designed to search for signatures consistent with quasi-periodic pulsa
 These results are freely available for reference by anyone interested. If you do make use of this list, please cite the following papers where the AFINO techniques and results were published: [Inglis et al. ApJ, 798, 108, (2015)](http://iopscience.iop.org/article/10.1088/0004-637X/798/2/108) , [Inglis et al., ApJ, 833, 284, (2016)](http://iopscience.iop.org/article/10.3847/1538-4357/833/2/284/). 
 
 
-<table id="keys" class="display">
+<table id="keys" class="display" style="font-size:12px">
 <colgroup>
 <col width="20%" />
 <col width="80%" />

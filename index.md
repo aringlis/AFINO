@@ -2,6 +2,7 @@
 datatable: true
 ---
 
+<script src="jquery-3.2.0.min.js"></script>
 <script>
  $(document).ready(function() {
     $('#catalogue').DataTable( {

@@ -25,8 +25,7 @@ datatable: true
 
 <nav>
 <ul>
-<li><a href="/about/index.md">About</a></li>
-<li><a href="/docs/index.md">Docs</a></li>
+<li><a href="more_information.md">More Information</a></li>
 </ul>
     </nav>
 

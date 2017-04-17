@@ -2,7 +2,6 @@
 datatable: true
 ---
 
-<head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
 <script>
@@ -18,7 +17,6 @@ $(document).ready(function(){
         );
 });
 </script>
-</head>
 
 # About this catalogue
 
@@ -92,7 +90,7 @@ These results are freely available for reference by anyone interested. If you do
 </table>
 
 
-<div style="height:100%; width:140%; font-size:	12px; overflow:auto;">
+<div class="display" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
 <table id="catalogue" class="display">
 <thead>

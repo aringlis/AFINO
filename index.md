@@ -22,10 +22,6 @@ datatable: true
 
 </head>
 
-<div class="docs-header">
-{% include masthead.html %}
-</div>
-
 
 # About this catalogue
 

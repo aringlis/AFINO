@@ -94,7 +94,7 @@ These results are freely available for reference by anyone interested. If you do
 <table id="catalogue" class="display" data-order='[[ 0, "desc" ]]'>
 <thead>
 <tr class="header">
-<th>Date</th>
+<th data-sort>Date</th>
 <th>GOES class</th>
 <th>Instrument</th>
 <th>Start time</th>

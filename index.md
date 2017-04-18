@@ -5,7 +5,7 @@ datatable: true
 
 <header>
 <div class='container'>
-<nav>
+<nav style="padding-top: 40px">
 <ul>
 <li><a href="/AFINO/about">More Information</a></li>
 <li><a href="/AFINO/publications">AFINO Publications</a></li>

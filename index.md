@@ -49,7 +49,7 @@ These results are freely available for reference by anyone interested. If you do
 <td markdown="span">The Bayesian Information Criterion. BIC = -2 Ln(L) + k Ln(n), where L is the likelihood function  </td>
 </tr>
 <tr>
-<td markdown="span">\\( \Delta BIC S_0 vs S_1 \\) </td>
+<td markdown="span">\\( \Delta BIC S_0 \ vs \ S_1 \\) </td>
 <td markdown="span">The difference in BIC between models S0 and S1. A positive value >10 indicates a strong preference for S1 over S0 </td>
 </tr>
 <tr>

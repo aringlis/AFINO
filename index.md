@@ -149,6 +149,7 @@ These results are freely available for reference by anyone interested. If you do
 $(document).ready(function() {
     $("#catalogue").dataTable( {
         paging: true,
+        style: compact,
         pageLength: 100,
         'data-sort': true,
         order: [[ 0, "desc" ]],

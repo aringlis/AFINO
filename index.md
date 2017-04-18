@@ -3,7 +3,7 @@ layout: default
 datatable: true
 ---
 
-<aside>
+<head>
 <div class='container'>
 <nav>
 <ul>
@@ -12,7 +12,7 @@ datatable: true
 </nav>
 </div>
 
-</aside>
+</head>
 
 
 # About this catalogue

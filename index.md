@@ -3,10 +3,10 @@ layout: default
 datatable: true
 ---
 
-<div class="topnav" style="background-color: #333; font-weight: bold; width:100%; padding: 6px; font-size: 18px; display: block">
+<div class="topnav" style="background-color: #333; font-weight: bold; width:100%; padding: 4px; font-size: 18px; display: block">
 <ul style="list-style-type: None">
-    <li style="display: inline; padding-right: 20px; font-weight: bold"><a href="/AFINO/about/index.html">About</a></li>
-    <li style="display: inline; padding-right: 20px"><a href="AFINO/publications/index.html">AFINO Publications</a></li>
+    <li style="display: inline; padding-right: 20px"><a href="/AFINO/about/index.md">About</a></li>
+    <li style="display: inline; padding-right: 20px"><a href="AFINO/publications/index.md">AFINO Publications</a></li>
     </ul>
 </div>
 

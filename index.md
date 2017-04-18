@@ -4,25 +4,6 @@ datatable: true
 ---
 
 
-<head>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-<script>
-
-
-    $("#catalogue").datatable( {
-        paging: false,
-        data-sort: true,
-        order: [[ 0, "desc" ]],
-        stateSave: true,
-        searching: true
-    });
-
-</script>
-
-</head>
-
 <nav>
 <ul>
 <li><a href="/AFINO/about">More Information</a></li>
@@ -159,3 +140,5 @@ These results are freely available for reference by anyone interested. If you do
 </table>
 
 </div>
+
+

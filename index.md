@@ -3,7 +3,7 @@ layout: default
 datatable: true
 ---
 
-<div class="topnav" style="background-color: #333; width:100%; padding: 8px; font-size: 18px; padding-right: 30px; display: block">
+<div class="topnav" style="background-color: #333; width:100%; padding: 6px; font-size: 18px; 30px; display: block">
 <ul style="list-style-type: None">
     <li style="display: inline; padding-right: 8px"><a href="/about/index.html">About</a></li>
     <li style="display: inline"><a href="/publications/index.html">AFINO Publications</a></li>

@@ -150,7 +150,8 @@ $(document).ready(function() {
         'data-sort': true,
         order: [[ 0, "desc" ]],
         stateSave: true,
-        searching: true
+        searching: true,
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub])
     });
 });
 </script>

@@ -86,6 +86,8 @@ These results are freely available for reference by anyone interested. If you do
 </tbody>
 </table>
 
+The full AFINO results table is shown below. The results are searchable and sortable by column.
+
 
 <div class="display compact" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 

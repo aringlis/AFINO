@@ -3,6 +3,12 @@ layout: default
 datatable: true
 ---
 
+<nav class="main-nav">
+  <ul>
+    <li><a href="/about/index.html">About</a></li>
+    <li><a href="/publications/index.html">AFINO Publications</a></li>
+  </ul>
+</nav>
 
 
 

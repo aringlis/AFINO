@@ -15,7 +15,11 @@ datatable: true
 
 </header>
 
-<main>
+
+
+
+
+
 
 # About this catalogue
 
@@ -161,4 +165,3 @@ $(document).ready(function() {
 });
 </script>
 
-</main>

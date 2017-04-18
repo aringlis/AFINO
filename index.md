@@ -92,7 +92,6 @@ The full AFINO results table is shown below. The results are searchable and sort
 <div class="display compact" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
 <table id="catalogue" class="display">
-<caption>AFINO catalogue</caption>
 <thead>
 <tr class="header">
 <th style="font-size: 16px" data-sort>Date</th>

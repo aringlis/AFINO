@@ -65,8 +65,8 @@ These results are freely available for reference by anyone interested. If you do
 <td markdown="span">If model S1 is preferred over all others by ΔBIC > 10, the criteria are met for a QPP detection  </td>
 </tr>
 <tr>
-<td markdown="span">&chi;<sup>2</sup><sub>Sn</sub>, p<sub>Sn</sub></td>
-<td markdown="span">Goodness of fit estimate, and associated p-value for each model n=0,1,2  </td>
+<td markdown="span"> p<sub>Sn</sub></td>
+<td markdown="span">p-value associated with goodness-of-fit estimate for each model n=0,1,2  </td>
 </tr>
 <tr>
 <td markdown="span">P (s)</td>
@@ -100,11 +100,8 @@ These results are freely available for reference by anyone interested. If you do
 <th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
 <th style="font-size: 16px">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
 <th style="font-size: 16px">Detection</th>
-<th style="font-size: 16px">&chi;<sup>2</sup><sub>S0</sub> &nbsp;</th>
 <th style="font-size: 16px">p<sub>S0</sub></th>
-<th style="font-size: 16px">&chi;<sup>2</sup><sub>S1</sub> &nbsp;</th>
 <th style="font-size: 16px">p<sub>S1</sub></th>
-<th style="font-size: 16px">&chi;<sup>2</sup><sub>S2</sub> &nbsp;</th>
 <th style="font-size: 16px">p<sub>S2</sub></th>
 <th style="font-size: 16px">P(s)</th>
 <th style="font-size: 16px">Width</th>
@@ -125,11 +122,8 @@ These results are freely available for reference by anyone interested. If you do
   <td> {{row.dBIC_0v2 | round:1 }} </td>
   <td> {{row.dBIC_2v1 | round:1 }} </td>
   <td> {{row.Detection}} </td>
-  <td> {{row.rchi2_m0 | round:2 }} </td>
   <td> {{row.probability_m0 | round:3 }}  </td>
-  <td> {{row.rchi2_m1 | round:2}} </td>
   <td> {{row.probability_m2 | round:3}} </td>
-  <td> {{row.rchi2_m2 | round:2}} </td>
   <td> {{row.probability_m2 | round:3}} </td>
   <td> {{row.period}} </td>
   <td> {{row.width | round:2}} </td>

@@ -3,13 +3,13 @@ layout: default
 datatable: true
 ---
 
-
+<header>
 <nav>
 <ul>
 <li><a href="/AFINO/about">More Information</a></li>
 </ul>
-    </nav>
-
+</nav>
+</header>
 
 # About this catalogue
 

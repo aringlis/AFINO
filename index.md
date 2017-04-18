@@ -3,16 +3,18 @@ layout: default
 datatable: true
 ---
 
+<header>
 <nav class="main-nav">
   <ul>
     <li><a href="/about/index.html">About</a></li>
     <li><a href="/publications/index.html">AFINO Publications</a></li>
   </ul>
 </nav>
+</header>
 
+<body>
 
-
-
+</body>
 
 # About this catalogue
 

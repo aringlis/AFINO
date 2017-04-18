@@ -146,7 +146,7 @@ These results are freely available for reference by anyone interested. If you do
 <script>
  
 $(document).ready(function() {
-    $("#catalogue").datatable( {
+    $("#catalogue").dataTable( {
         paging: false,
         'data-sort': true,
         order: [[ 0, "desc" ]],

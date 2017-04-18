@@ -8,7 +8,10 @@ datatable: true
     <a href="/publications/index.html">AFINO Publications</a>
 </div>
 
-
+.topnav a {
+padding: 14px 16px;
+background-color: #333;
+}
 
 # About this catalogue
 

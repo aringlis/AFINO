@@ -22,7 +22,7 @@ These results are freely available for reference by anyone interested. If you do
   
 
 
-<table id="keys" class="display">
+<table id="keys" class="display compact">
 <colgroup>
 <col width="20%" />
 <col width="80%" />

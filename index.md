@@ -3,15 +3,12 @@ layout: default
 datatable: true
 ---
 
-<div class="topnav">
+<div class="topnav" style="background-color: #333; padding-right: 30px; display: block">
     <a href="/about/index.html">About</a>
     <a href="/publications/index.html">AFINO Publications</a>
 </div>
 
-.topnav a {
-padding: 14px 16px;
-background-color: #333;
-}
+
 
 # About this catalogue
 

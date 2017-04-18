@@ -49,15 +49,15 @@ These results are freely available for reference by anyone interested. If you do
 <td markdown="span">The Bayesian Information Criterion. BIC = -2 Ln(L) + k Ln(n), where L is the likelihood function  </td>
 </tr>
 <tr>
-<td markdown="span">\\( \Delta BIC S_0 \ vs \ S_1 \\) </td>
+<td markdown="span">\\( \Delta BIC \ S_0 \ vs \ S_1 \\) </td>
 <td markdown="span">The difference in BIC between models S0 and S1. A positive value >10 indicates a strong preference for S1 over S0 </td>
 </tr>
 <tr>
-<td markdown="span">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub></td>
+<td markdown="span">\\( \Delta BIC \ S_0 \ vs \ S_2 \\)</td>
 <td markdown="span">The difference in BIC between models S0 and S2. A positive value >10 indicates a strong preference for S2 over S0 </td>
 </tr>
 <tr>
-<td markdown="span">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub></td>
+<td markdown="span">\\( \Delta BIC \ S_2 \ vs \ S_1 \\)</td>
 <td markdown="span">The difference in BIC between models S2 and S1. A positive value >10 indicates a strong preference for S1 over S2 </td>
 </tr>
 <tr>
@@ -65,7 +65,7 @@ These results are freely available for reference by anyone interested. If you do
 <td markdown="span">If model S1 is preferred over all others by ΔBIC > 10, the criteria are met for a QPP detection  </td>
 </tr>
 <tr>
-<td markdown="span"> p<sub>Sn</sub></td>
+<td markdown="span"> \\ (p_n \\)</td>
 <td markdown="span">p-value associated with goodness-of-fit estimate for each model n=0,1,2  </td>
 </tr>
 <tr>

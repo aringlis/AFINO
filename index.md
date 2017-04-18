@@ -96,9 +96,9 @@ These results are freely available for reference by anyone interested. If you do
 <th style="font-size: 16px">Start time</th>
 <th style="font-size: 16px">End time</th>
 <th style="font-size: 16px">Wavelength</th>
-<th style="font-size: 16px">\\[ \Delta BIC \ S_0 \ vs \ S_1 \\] </th>
-<th style="font-size: 16px">\\[ \Delta BIC \ S_0 \ vs \ S_2 \\] </th>
-<th style="font-size: 16px">\\[ \Delta BIC \ S_2 \ vs \ S_1 \\] </th>
+<th style="font-size: 16px">\\( \Delta BIC \ S_0 \ vs \ S_1 \\) </th>
+<th style="font-size: 16px">\\( \Delta BIC \ S_0 \ vs \ S_2 \\) </th>
+<th style="font-size: 16px">\\( \Delta BIC \ S_2 \ vs \ S_1 \\) </th>
 <th style="font-size: 16px">Detection</th>
 <th style="font-size: 16px">\\( p_0 \\)</th>
 <th style="font-size: 16px">\\( p_1 \\)</th>
@@ -150,8 +150,7 @@ $(document).ready(function() {
         'data-sort': true,
         order: [[ 0, "desc" ]],
         stateSave: true,
-        searching: true,
-        MathJax.Hub.Queue(["Typeset",MathJax.Hub])
+        searching: true
     });
 });
 </script>

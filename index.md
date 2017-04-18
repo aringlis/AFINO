@@ -11,6 +11,8 @@ datatable: true
 </nav>
 </header>
 
+<body>
+
 # About this catalogue
 
 AFINO was designed to automatically search solar X-ray data for signatures consistent with quasi-periodic pulsations (QPP) in solar flares. Currently, AFINO runs daily, analysing any new substantial solar flares observed by the GOES-15 (Geostationary Operational Environmental Satellite) X-ray sensor. Over 600 analysed flares are in the results database, which begins in early 2011.
@@ -155,3 +157,4 @@ $(document).ready(function() {
 });
 </script>
 
+</body>

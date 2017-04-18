@@ -5,12 +5,12 @@ datatable: true
 
 <header>
 <div class='container'>
-<nav style="padding-top: 40px">
+<navbar>
 <ul>
 <li><a href="/AFINO/about">More Information</a></li>
 <li><a href="/AFINO/publications">AFINO Publications</a></li>
 </ul>
-</nav>
+</navbar>
 </div>
 
 </header>

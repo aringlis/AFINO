@@ -4,10 +4,8 @@ datatable: true
 ---
 
 <div class="topnav">
-  <ul>
-    <li><a href="/about/index.html">About</a></li>
-    <li><a href="/publications/index.html">AFINO Publications</a></li>
-  </ul>
+    <a href="/about/index.html">About</a>
+    <a href="/publications/index.html">AFINO Publications</a>
 </div>
 
 

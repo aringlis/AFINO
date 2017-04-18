@@ -65,7 +65,7 @@ These results are freely available for reference by anyone interested. If you do
 <td markdown="span">If model S1 is preferred over all others by ΔBIC > 10, the criteria are met for a QPP detection  </td>
 </tr>
 <tr>
-<td markdown="span"> \\ (p_n \\)</td>
+<td markdown="span"> \\( p_n \\)</td>
 <td markdown="span">p-value associated with goodness-of-fit estimate for each model n=0,1,2  </td>
 </tr>
 <tr>
@@ -96,13 +96,13 @@ These results are freely available for reference by anyone interested. If you do
 <th style="font-size: 16px">Start time</th>
 <th style="font-size: 16px">End time</th>
 <th style="font-size: 16px">Wavelength</th>
-<th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>1</sub> </th>
-<th style="font-size: 16px">&Delta;BIC S<sub>0</sub> vs S<sub>2</sub> </th>
-<th style="font-size: 16px">&Delta;BIC S<sub>2</sub> vs S<sub>1</sub> </th>
+<th style="font-size: 16px">\\( \Delta BIC \ S_0 \ vs \ S_1 \\) </th>
+<th style="font-size: 16px">\\( \Delta BIC \ S_0 \ vs \ S_2 \\) </th>
+<th style="font-size: 16px">\\( \Delta BIC \ S_2 \ vs \ S_1 \\) </th>
 <th style="font-size: 16px">Detection</th>
-<th style="font-size: 16px">p<sub>S0</sub></th>
-<th style="font-size: 16px">p<sub>S1</sub></th>
-<th style="font-size: 16px">p<sub>S2</sub></th>
+<th style="font-size: 16px">\\( p_0 \\)</th>
+<th style="font-size: 16px">\\( p_1 \\)</th>
+<th style="font-size: 16px">\\( p_2 \\)</th>
 <th style="font-size: 16px">P(s)</th>
 <th style="font-size: 16px">Width</th>
 <th style="font-size: 16px">Flags</th>

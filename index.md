@@ -4,14 +4,16 @@ datatable: true
 ---
 
 <header>
+<div class='container'>
 <nav>
 <ul>
 <li><a href="/AFINO/about">More Information</a></li>
 </ul>
 </nav>
+</div>
+
 </header>
 
-<body>
 
 # About this catalogue
 
@@ -157,4 +159,3 @@ $(document).ready(function() {
 });
 </script>
 
-</body>

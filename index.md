@@ -87,7 +87,7 @@ These results are freely available for reference by anyone interested. If you do
 </table>
 
 
-<div class="display" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
+<div class="display compact" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
 <table id="catalogue" class="display">
 <thead>

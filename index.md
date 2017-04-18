@@ -3,19 +3,6 @@ layout: default
 datatable: true
 ---
 
-<header>
-<div class='container'>
-<navbar>
-<ul>
-<li><a href="/AFINO/about">More Information</a></li>
-<li><a href="/AFINO/publications">AFINO Publications</a></li>
-</ul>
-</navbar>
-</div>
-
-</header>
-
-
 
 
 

@@ -136,7 +136,7 @@ The full AFINO results table is shown below. The results are searchable and sort
   {% assign baseurl = '/AFINO/plots/summary_plot' %}
   {% assign sep = '_' %}
   {% assign end_url = '_GOES_long.pdf' %}
-  {% capture full_url %}{{baseurl}} {{sep}} {{row.Date}} {{sep}} {{row.Start_time}} {{sep}} {{row.Date}} {{sep}} {{row.End_time}} {{end_url}} {% endcapture %}
+  {% capture full_url %}{{baseurl}}{{sep}}{{row.Date}}{{sep}}{{row.Start_time}}{{sep}}{{row.Date}}{{sep}}{{row.End_time}}{{end_url}} {% endcapture %}
   
   <td> <a href= '{{full_url}}'>Plot</a> </td>
   </tr>

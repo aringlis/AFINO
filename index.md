@@ -3,12 +3,13 @@ layout: default
 datatable: true
 ---
 
+<div class="topnav" style="background-color: #333; font-weight: bold; width:100%; padding: 4px; font-size: 18px; display: block">
+<ul style="list-style-type: None">
+    <li style="display: inline; padding-right: 20px"><a href="/AFINO/about">How it works</a></li>
+    <li style="display: inline; padding-right: 20px"><a href="/AFINO/publications">AFINO Publications</a></li>
+    </ul>
+</div>
 
-<nav>
-<ul>
-<li><a href="/AFINO/about">More Information</a></li>
-</ul>
-    </nav>
 
 
 # About this catalogue
@@ -17,10 +18,11 @@ AFINO was designed to automatically search solar X-ray data for signatures consi
 
 The main feature of AFINO is the use of a model comparison technique to analyse the Fourier Power Spectral Density (PSD) of solar flare time series data. Events showing a strong preference for a localized frequency enhancement in the PSD are flagged as flares of interest (see bold entries).
 
-These results are freely available for reference by anyone interested. If you do make use of this list, please cite the following papers where the AFINO techniques and results were published: [Inglis et al. ApJ, 798, 108, (2015)](http://iopscience.iop.org/article/10.1088/0004-637X/798/2/108) , [Inglis et al., ApJ, 833, 284, (2016)](http://iopscience.iop.org/article/10.3847/1538-4357/833/2/284/). 
+These results are freely available for reference by anyone interested. If you do make use of this list, please cite the following papers where the AFINO techniques and results were published: [Inglis et al. ApJ, 798, 108, (2015)](http://iopscience.iop.org/article/10.1088/0004-637X/798/2/108) , [Inglis et al., ApJ, 833, 284, (2016)](http://iopscience.iop.org/article/10.3847/1538-4357/833/2/284/).
+  
 
 
-<table id="keys" class="display">
+<table id="keys" class="display compact">
 <colgroup>
 <col width="20%" />
 <col width="80%" />
@@ -84,8 +86,10 @@ These results are freely available for reference by anyone interested. If you do
 </tbody>
 </table>
 
+The full AFINO results table is shown below. The results are searchable and sortable by column.
 
-<div class="display" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
+
+<div class="display compact" style="height:100%; width:140%; font-size:	12px; overflow:auto;">
 
 <table id="catalogue" class="display">
 <thead>
@@ -146,7 +150,8 @@ These results are freely available for reference by anyone interested. If you do
  
 $(document).ready(function() {
     $("#catalogue").dataTable( {
-        paging: false,
+        paging: true,
+        pageLength: 100,
         'data-sort': true,
         order: [[ 0, "desc" ]],
         stateSave: true,

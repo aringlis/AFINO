@@ -114,7 +114,7 @@ The full AFINO results table is shown below. The results are searchable and sort
 </thead>
 <tbody>
 
-{% for row in site.data.afino_master_record_online %}
+{% for row in site.data.afino_master_record %}
   <tr>
   <td> {{ row.Date }} </td>
   <td> {{row.GOES_class}}</td>

@@ -110,6 +110,7 @@ The full AFINO results table is shown below. The results are searchable and sort
 <th style="font-size: 16px">P(s)</th>
 <th style="font-size: 16px">Width</th>
 <th style="font-size: 16px">Flags</th>
+<th style="font-size: 16px">Plot</th>
 </tr>
 </thead>
 <tbody>
@@ -132,6 +133,7 @@ The full AFINO results table is shown below. The results are searchable and sort
   <td> {{row.period}} </td>
   <td> {{row.width | round:2}} </td>
   <td> {{row.Flags}} </td>
+  <td> <a href="AFINO/plots/summary_plot_' + row.Date + '_' + row.Start_time + '_' + row.Date + '_' + row.End_time + '_' + GOES_long.pdf" >Plot</a>
   </tr>
 {% endfor %}
 </tbody>

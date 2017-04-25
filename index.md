@@ -133,8 +133,8 @@ The full AFINO results table is shown below. The results are searchable and sort
   <td> {{row.period}} </td>
   <td> {{row.width | round:2}} </td>
   <td> {{row.Flags}} </td>
-  % url = "AFINO/plots/summary_plot_" | append: row.Date | append: "_" | append: row.Start_time | append: "_" | append: row.Date | append: "_" | append: row.End_time | append: "GOES_long.pdf" %
-  <td> <a href=url>Plot</a>
+  {% url = "AFINO/plots/summary_plot_" | append: row.Date | append: "_" | append: row.Start_time | append: "_" | append: row.Date | append: "_" | append: row.End_time | append: "GOES_long.pdf" %}
+  <td> <a href=url>Plot</a> </td>
   </tr>
 {% endfor %}
 </tbody>

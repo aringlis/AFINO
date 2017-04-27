@@ -111,7 +111,6 @@ The full AFINO results table is shown below. The results are searchable and sort
 <th style="font-size: 16px">Width</th>
 <th style="font-size: 16px">Flags</th>
 <th style="font-size: 16px">Plot</th>
-<th style="fong-size: 16px">Helioviewer</th>
 </tr>
 </thead>
 <tbody>
@@ -138,13 +137,7 @@ The full AFINO results table is shown below. The results are searchable and sort
   {% assign sep = '_' %}
   {% assign end_url = '_GOES_long.pdf' %}
   {% capture full_url %}{{baseurl}}{{sep}}{{row.Date}}{{sep}}{{row.Start_time}}{{sep}}{{row.Date}}{{sep}}{{row.End_time}}{{end_url}} {% endcapture %}
-  
   <td> <a href= '{{full_url}}'>Plot</a> </td>
-  {% assign hv_base_url = 'https://helioviewer.org/?date=' %}
-  {% assign hv_end_url = '&imageScale=2.42044088&imageLayers=%5BSDO,AIA,171,1,100%5D&eventLayers=%5BFL,all,1%5D&eventLabels=true' %}
-  {% capture hv_full_url %}{{hv_base_url}}{{row.Date}}{{'T'}}{{row.Start_time}}{{hv_end_url}} {% endcapture %}
-  <td> <a href= '{{hv_full_url}}'>Link</a> </td>
-  
   
   </tr>
 {% endfor %}

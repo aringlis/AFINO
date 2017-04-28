@@ -143,7 +143,7 @@ The full AFINO results table is shown below. The results are searchable and sort
   {% assign hv_end_url = '&imageScale=2.42044088&imageLayers=%5BSDO,AIA,171,1,100%5D&eventLayers=%5BFL,all,1%5D&eventLabels=true'
   {% assign hv_date = '20110101'
   {% capture hv_full_url %}{{hv_base_url}}{{hv_date}}{{hv_end_url}} {% endcapture %}
-  
+  <td> <a href= '{{hv_full_url}}'>Show</a> </td>
   
   </tr>
 {% endfor %}

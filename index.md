@@ -141,8 +141,9 @@ The full AFINO results table is shown below. The results are searchable and sort
   <td> <a href= '{{full_url}}'>Plot</a> </td>
   {% assign hv_base_url = 'https://helioviewer.org/?date=' %}
   {% assign hv_end_url = '&imageScale=2.42044088&imageLayers=%5BSDO,AIA,171,1,100%5D&eventLayers=%5BFL,all,1%5D&eventLabels=true'
+  
   {% capture hv_date %}{{row.Date | slice: 0,4  }}{{'-'}}{{row.Date | slice: 4,2}}{{'-'}}{{row.Date | slice: 6,2}}{{'T'}}{{row.Start_time | slice:0,2}}{{':'}}{{row.Start_time | slice:2,2}}{{':'}}{{row.Start_time | slice: 4,2}} {% endcapture %}
-  {% capture hv_full_url %}{{hv_base_url}}{{hv_date}}{{hv_end_url}} {% endcapture %}
+  
   
   
   </tr>

@@ -129,7 +129,7 @@ The full AFINO results table is shown below. The results are searchable and sort
   <td> {{row.Detection}} </td> 
   {% assign prob_m0 = row.probability_m0 | round:3 %}
   {% if prob_m0 > 1 %}
-      <td> {{prob_m0}}  </td>
+      <td> {{0.000}}  </td>
   {% else %}
       <td> {{prob_m0}}  </td>
   {% endif %}

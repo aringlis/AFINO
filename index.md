@@ -128,7 +128,7 @@ The full AFINO results table is shown below. The results are searchable and sort
   <td> {{row.dBIC_2v1 | round:1 }} </td>
   <td> {{row.Detection}} </td> 
   {% assign prob_m0 = row.probability_m0 | round:3 %}
-  {% if prob_m0 > 1 %}
+  {% if prob_m0 >= 1 %}
       <td> {{0.000}}  </td>
   {% else %}
       <td> {{prob_m0}}  </td>

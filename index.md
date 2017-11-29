@@ -127,7 +127,12 @@ The full AFINO results table is shown below. The results are searchable and sort
   <td> {{row.dBIC_0v2 | round:1 }} </td>
   <td> {{row.dBIC_2v1 | round:1 }} </td>
   <td> {{row.Detection}} </td>
-  <td> {{row.probability_m0 | round:3 }}  </td>
+  {% if row.probability_m0 < 0.001 %}
+      {%assign prob_m0 = 0.0 %}
+  {% else %}
+      {% assign prob_m0 = row.probability_m0 %}
+
+  <td> {{prob_m0 | round:3 }}  </td>
   <td> {{row.probability_m1 | round:3}} </td>
   <td> {{row.probability_m2 | round:3}} </td>
   <td> {{row.period}} </td>

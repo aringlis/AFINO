@@ -3,6 +3,10 @@ layout: default
 ---
 
 # Publications related to AFINO
+  - L. A. Hayes, A. R. Inglis, S. Christe, B. R. Dennis, *Statistical study of GOES X-ray quasi-periodic pulsations in solar flares*, ApJ, 895, 50, 2020
+
+  - A. M. Broomhall, J. M. Davenport, L. Hayes, A. R. Inglis, D. Kolotkov, J. MacLaughlin, T. Mehta, V. M. Nakariakov, Y. Notsu, D. J. Pascoe, C. E. Pugh, T. van Doorsselaere, *A blueprint of state-of-the-art techniques for detecting quasi-periodic pulsations in solar and stellar flares*, ApJS, 244, 44, 2019
+
   - L. Hayes, P. Gallagher, B. R. Dennis, J. Ireland, A. R. Inglis, D. Morosan, *Persistent Quasi-periodic Pulsations during a Large X-class Solar Flare*, ApJ, 875, 33, 2019
   
   - K. R. Murphy, A. R. Inglis, D. Sibeck, I. J. Rae, C. Watt, M. Silveira, F. Plaschke, S. Claudepierre, R. Nakamura, *Determining the Mode, Frequency, and Azimuthal Wave Number of ULF Waves During a HSS and Moderate Geomagnetic Storm*, JGR: Space Physics, 123, 6457, 2018
